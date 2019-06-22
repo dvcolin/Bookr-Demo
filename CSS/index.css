@@ -154,7 +154,7 @@ body {
   background: white;
 }
 .navbar {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   height: 70px;
   background: #c2a164;
@@ -162,10 +162,9 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 1.6rem;
+  padding: 0 7.5%;
   position: fixed;
   top: 0;
-  left: 7.5%;
 }
 .navbar .nav__logo {
   margin-right: auto;
