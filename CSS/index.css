@@ -7,7 +7,7 @@
 }
 .navFont {
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -186,7 +186,7 @@ body {
 }
 .navbar .nav__links .nav__link {
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -198,7 +198,8 @@ body {
   padding-top: 70px;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 65% 35%;
+  grid-template-rows: 60% 30%;
+  grid-row-gap: 1rem;
   grid-template-areas: 'cta' 'description';
 }
 #marketing .cta {
@@ -220,4 +221,34 @@ body {
 #marketing .cta .cta__text .cta__text-description {
   font-size: 1.6rem;
   margin-top: 1rem;
+}
+#marketing .services {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2.5rem;
+}
+#marketing .services .services__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem;
+}
+#marketing .services .services__item .services__title {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+#marketing .services .services__item .services__title i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#marketing .services .services__item .services__description {
+  font-size: 1.4rem;
+  font-family: 'Varela Round', sans-serif;
+  line-height: 2rem;
+  text-align: center;
 }
