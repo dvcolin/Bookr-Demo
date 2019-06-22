@@ -151,17 +151,21 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background: white;
 }
 .navbar {
-  width: 100%;
+  width: 85%;
+  margin: 0 auto;
   height: 70px;
   background: #c2a164;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 3.2rem;
+  padding: 0 1.6rem;
   position: fixed;
+  top: 0;
+  left: 7.5%;
 }
 .navbar .nav__logo {
   margin-right: auto;
@@ -186,4 +190,34 @@ body {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+#marketing {
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 65% 35%;
+  grid-template-areas: 'cta' 'description';
+}
+#marketing .cta {
+  background: url(../images/cta2.jpg);
+  background-size: cover;
+  background-position: 0 35%;
+  border-radius: 0 0 5px 5px;
+  filter: grayscale(40%);
+}
+#marketing .cta .cta__text {
+  filter: none;
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 5rem;
+  position: absolute;
+  right: 8.4rem;
+  top: 3.2rem;
+}
+#marketing .cta .cta__text .cta__text-description {
+  font-size: 1.6rem;
+  margin-top: 1rem;
 }
